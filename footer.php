@@ -164,7 +164,7 @@
     })();
 </script>
 <!-- /WhatsHelp.io widget -->
-<script type="text/javascript">
+<!--<script type="text/javascript">
     jQuery(document).ready(function($) {
         $(window).load(function() {
             setTimeout(function() {
@@ -173,7 +173,7 @@
 
         });
     });
-</script>
+</script>-->
 
 </body>
 </html>

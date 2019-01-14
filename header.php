@@ -4,8 +4,7 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="apple-mobile-web-app-capable" content="yes"/>
-
-    <style>
+   <!-- <style>
         .preloader {
             position: fixed;
             top: 0;
@@ -56,23 +55,22 @@
             }
         }
 
-    </style>
+    </style>-->
     <title><?php bloginfo('name');
         wp_title(); ?></title>
-    <script type='text/javascript' src='<?php echo get_site_url(); ?>/wp-includes/js/jquery/jquery.js?ver=all'></script>
+    <!--<script type='text/javascript' src='<?php /*echo get_site_url(); */ ?>/wp-includes/js/jquery/jquery.js?ver=all'></script>
     <script type='text/javascript'
-            src='<?php echo get_site_url(); ?>/wp-content/plugins/accordeon-menu-ck/assets/jquery.easing.1.3.js?ver=4.9.7'></script>
+            src='<?php /*echo get_site_url(); */ ?>/wp-content/plugins/accordeon-menu-ck/assets/jquery.easing.1.3.js?ver=4.9.7'></script>
     <script type='text/javascript'
-            src='<?php echo get_site_url(); ?>/wp-content/plugins/accordeon-menu-ck/assets/accordeonmenuck.js?ver=4.9.7'></script>
+            src='<?php /*echo get_site_url(); */ ?>/wp-content/plugins/accordeon-menu-ck/assets/accordeonmenuck.js?ver=4.9.7'></script>-->
     <?php wp_head(); ?>
     <meta name="yandex-verification" content="1ef1b4e3e07ef0fb"/>
-
 </head>
 
 <body class="<?php echo(get_post_meta($post->ID, 'my_classes', true)); ?>">
-<div class="preloader">
+<!--<div class="preloader">
     <div class="page-loader-circle"></div>
-</div>
+</div>-->
 <div class="menu_block flex wrap align_center center">
     <i class="fa fa-times close"></i>
     <div class="container">
@@ -122,4 +120,4 @@
     <div class="phone_mob">
         <i class="fa fa-phone"></i><a href="tel:+74952114504">8(495)211-45-04</a><br>
     </div>
-</header>	
+</header>
