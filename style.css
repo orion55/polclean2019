@@ -409,7 +409,7 @@ header .center img {
     color: #201e34;
     font-size: 30px;
     text-transform: uppercase;
-    font-family: 'GeometriaMedium';
+    font-family: 'GeometriaMedium', Verdana, sans-serif;
     background: rgba(255, 255, 255, 0.7);
     padding: 10px 15px;
     display: inline-block;
@@ -418,7 +418,7 @@ header .center img {
 
 .banner .tab.active {
     color: #f25e99;
-    font-family: 'GeometriaMedium';
+    font-family: 'GeometriaMedium', Verdana, sans-serif;
 }
 
 .banner .tab:hover {
@@ -601,7 +601,7 @@ div.block_fullsize.service_block > output {
 
 .block_notfullsize.quickform form > div label {
     font-size: 16px;
-    font-family: 'GeometriaMedium';
+    font-family: 'GeometriaMedium', Verdana, sans-serif;
     margin-bottom: 10px;
     display: inline-block;
     text-align: center;
@@ -772,7 +772,7 @@ div.block_fullsize.service_block > output {
 
 .uk-width-medium-3-10 li a {
     text-transform: uppercase;
-    font-family: 'GeometriaMedium';
+    font-family: 'GeometriaMedium', Verdana, sans-serif;
     color: #201e34;
 }
 
@@ -833,7 +833,7 @@ div.block_fullsize.service_block > output {
 
 .service_block .in_tabs li a {
     text-transform: uppercase;
-    font-family: 'GeometriaMedium';
+    font-family: 'GeometriaMedium', Verdana, sans-serif;
     color: #201e34;
 }
 
@@ -871,12 +871,14 @@ div.block_fullsize.service_block > output {
 .advantages .item {
     min-width: 320px;
     width: 30%;
-    height: 250px;
+    /*height: 250px;*/
     text-align: justify;
+    padding-bottom: 30px;
 }
 
 .advantages .top {
-    height: 70px;
+    /*height: 70px;*/
+    padding-bottom: 10px;
 }
 
 .advantages .top img {
@@ -890,8 +892,9 @@ div.block_fullsize.service_block > output {
     font-size: 24px;
     text-transform: uppercase;
     color: #f25e99;
-    font-family: 'GeometriaMedium';
+    font-family: 'GeometriaMedium', Verdana, sans-serif;
     vertical-align: middle;
+    padding-top: 5px;
 }
 
 .advantages .item .advantage_text {
@@ -943,7 +946,7 @@ div.block_fullsize.service_block > output {
 }
 
 .testimonials .item .name {
-    font-family: 'GeometriaMedium';
+    font-family: 'GeometriaMedium', Verdana, sans-serif;
 }
 
 .testimonials .item .date {
@@ -1312,7 +1315,7 @@ textarea:-ms-input-placeholder {
 
 .lc_block li a:hover, .lc_block .ui-tabs-active a {
     border-bottom: 2px solid #f25e99;
-    font-family: 'GeometriaMedium';
+    font-family: 'GeometriaMedium', Verdana, sans-serif;
     text-decoration: none;
 }
 
@@ -1330,7 +1333,7 @@ textarea:-ms-input-placeholder {
 }
 
 .lc_block table tr:first-child td {
-    font-family: 'GeometriaMedium';
+    font-family: 'GeometriaMedium', Verdana, sans-serif;
     padding-bottom: 15px;
 }
 
@@ -1476,14 +1479,14 @@ form.lc_profile div {
 .uislider #amount {
     border: none;
     width: 70px;
-    font-family: 'GeometriaMedium';
+    font-family: 'GeometriaMedium', Verdana, sans-serif;
     font-size: 24px;
     color: #f25e99;
     margin-left: 15px;
 }
 
 .uislider .metrazh span {
-    font-family: 'GeometriaMedium';
+    font-family: 'GeometriaMedium', Verdana, sans-serif;
     font-size: 24px;
     color: #f25e99;
 }
@@ -1579,7 +1582,7 @@ form.lc_profile div {
 }
 
 .cost .price {
-    font-family: 'GeometriaMedium';
+    font-family: 'GeometriaMedium', Verdana, sans-serif;
     color: #f25e99;
 }
 
@@ -1818,7 +1821,7 @@ form.lc_profile div {
     .advantages .item {
         width: 100%;
         height: auto;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
 
     .service_block .in_tabs a {
@@ -2213,7 +2216,7 @@ form.lc_profile div {
 }
 
 @font-face {
-    font-family: 'GeometriaMedium';
+    font-family: 'GeometriaMedium', Verdana, sans-serif;
     src: url('fonts/GeometriaMedium.eot');
     src: url('fonts/GeometriaMedium.eot') format('embedded-opentype'),
     url('fonts/GeometriaMedium.woff2') format('woff2'),
@@ -3046,5 +3049,13 @@ tc-item .tc-content span {
     .careers {
         width: 80%;
         margin-bottom: 20px;
+    }
+
+    .textwidget .advantages, .textwidget {
+        padding: 10px;
+    }
+
+    .tc-item {
+        margin-left: 0;
     }
 }

@@ -4,73 +4,13 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="apple-mobile-web-app-capable" content="yes"/>
-   <!-- <style>
-        .preloader {
-            position: fixed;
-            top: 0;
-            right: 0;
-            bottom: 0;
-            left: 0;
-            z-index: 999999;
-            display: block;
-            background: #fff;
-        }
-
-        .page-loader-circle {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            width: 36px;
-            height: 36px;
-            margin: -18px 0 0 -18px;
-            border-radius: 50%;
-            border: 2px solid;
-            border-top-color: rgba(34, 34, 34, 1);
-            border-bottom-color: rgba(0, 0, 0, 0.15);
-            border-left-color: rgba(34, 34, 34, 1);
-            border-right-color: rgba(0, 0, 0, 0.15);
-            -webkit-animation: page-loader-circle 0.8s linear infinite;
-            animation: page-loader-circle 0.8s linear infinite;
-        }
-
-        @keyframes page-loader-circle {
-            from {
-                -webkit-transform: rotate(0deg);
-                transform: rotate(0deg);
-            }
-            to {
-                -webkit-transform: rotate(360deg);
-                transform: rotate(360deg);
-            }
-        }
-
-        @-webkit-keyframes page-loader-circle {
-            from {
-                -webkit-transform: rotate(0deg);
-                transform: rotate(0deg);
-            }
-            to {
-                -webkit-transform: rotate(360deg);
-                transform: rotate(360deg);
-            }
-        }
-
-    </style>-->
     <title><?php bloginfo('name');
         wp_title(); ?></title>
-    <!--<script type='text/javascript' src='<?php /*echo get_site_url(); */ ?>/wp-includes/js/jquery/jquery.js?ver=all'></script>
-    <script type='text/javascript'
-            src='<?php /*echo get_site_url(); */ ?>/wp-content/plugins/accordeon-menu-ck/assets/jquery.easing.1.3.js?ver=4.9.7'></script>
-    <script type='text/javascript'
-            src='<?php /*echo get_site_url(); */ ?>/wp-content/plugins/accordeon-menu-ck/assets/accordeonmenuck.js?ver=4.9.7'></script>-->
     <?php wp_head(); ?>
     <meta name="yandex-verification" content="1ef1b4e3e07ef0fb"/>
 </head>
 
 <body class="<?php echo(get_post_meta($post->ID, 'my_classes', true)); ?>">
-<!--<div class="preloader">
-    <div class="page-loader-circle"></div>
-</div>-->
 <div class="menu_block flex wrap align_center center">
     <i class="fa fa-times close"></i>
     <div class="container">

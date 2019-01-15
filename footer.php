@@ -1,5 +1,4 @@
 ﻿<footer>
-
     <link rel='stylesheet' href='/wp-content/themes/polclean/jquery-ui.theme.min.css' type='text/css' media='all'/>
     <div class="container flex between">
         <div class="left">
@@ -164,16 +163,6 @@
     })();
 </script>
 <!-- /WhatsHelp.io widget -->
-<!--<script type="text/javascript">
-    jQuery(document).ready(function($) {
-        $(window).load(function() {
-            setTimeout(function() {
-                $('.preloader').fadeOut('slow', function() {});
-            }, 500);
-
-        });
-    });
-</script>-->
 
 </body>
 </html>
