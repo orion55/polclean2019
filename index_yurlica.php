@@ -20,7 +20,7 @@
  <div class="block_fullsize service_block">
 	<h2>Как мы будем <i>делать уборку?</i></h2>
 	<p class="undertitle">Спорим, вы вряд ли делаете большую часть из нашего списка даже раз в месяц?</p>
-	<div class="fullsize_container">
+	<div class="fullsize_container lazy">
 		<div class="container">
 			<?php if(!dynamic_sidebar('widgetkit_clean_fizlico')): ?><?php endif; ?>
 		</div>
@@ -46,5 +46,5 @@
 <div class="block_notfullsize">
 	<?php if(!dynamic_sidebar('seo_text')): ?><?php endif; ?>
 </div>
- 
+
 <?php get_footer(); ?>

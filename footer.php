@@ -1,9 +1,9 @@
-﻿<footer>
+﻿<footer class="lazy">
     <link rel='stylesheet' href='/wp-content/themes/polclean/jquery-ui.theme.min.css' type='text/css' media='all'/>
     <div class="container flex between">
         <div class="left">
             <div>
-                <img src="<?php bloginfo('template_url'); ?>/images/logo.png">
+                <img src="<?php bloginfo('template_url'); ?>/images/logo.png" class="lazy">
             </div>
             <div>
                 ООО "Чистота с любовью +"<br>

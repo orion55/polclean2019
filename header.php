@@ -41,7 +41,7 @@
         <i class="fa fa-bars"></i><span>Меню</span>
     </div>
     <div class="center">
-        <a href="/"><img alt="logo" src="<?php bloginfo('template_url'); ?>/images/logo.png"></a>
+        <a href="/"><img alt="logo" src="<?php bloginfo('template_url'); ?>/images/logo-small.png"></a>
     </div>
     <div class="right flex end">
         <div class="phone flex wrap end align_center">

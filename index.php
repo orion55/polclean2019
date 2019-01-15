@@ -26,7 +26,7 @@ if (wp_is_mobile()) {
 <div class="block_fullsize service_block">
     <h2>Как мы будем <i>делать уборку?</i></h2>
     <p class="undertitle">Спорим, вы вряд ли делаете большую часть из нашего списка даже раз в месяц?</p>
-    <div class="fullsize_container">
+    <div class="fullsize_container lazy">
         <div class="container">
             <?php if (!dynamic_sidebar('widgetkit_clean_fizlico')): ?><?php endif; ?>
         </div>
