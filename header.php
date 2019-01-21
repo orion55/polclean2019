@@ -15,7 +15,7 @@
     <i class="fa fa-times close"></i>
     <div class="container">
         <div class="center">
-            <a href="/"><img alt="logo" src="<?php bloginfo('template_url'); ?>/images/logo.png"></a>
+            <a href="/"><img alt="logo" src="<?php bloginfo('template_url'); ?>/images/logo-small.png"></a>
         </div>
         <div class="phone">
             <i class="fa fa-phone"></i><a href="tel:+74952114504">8(495)211-45-04</a><br>
